@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: #5555ab;
+    color: #fff;
+    display: flex;
+}
+
+.hero .container{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: #04042b;
+}
+
+.hero .container .randomNum{
+    background: #181831;
+    padding: 20px;
+}
+
+.hero .container .randomNum p span{
+    color: #9cff9c;
+    font-weight: 600;
+}
+
+.hero .numContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    width: 100%;
+}
+
+.hero .numContainer div{
+    width: 100%;
+    max-width: 42%;
+}
+
+.hero .numContainer div input{
+    padding: 8px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background: #181831;
+    color: #9cff9c;
+}
+
+.hero .container button{
+    align-self: flex-end;
+    border: none;
+    outline: none;
+    background: #292977;
+    color: #fff;
+    padding: 14px;
+    width: 100%;
+    font-size: 22px;
+    cursor: pointer;
+}
