@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Images from "./Images";
 import "./styles.css";
 
+
 export default function App(){
   const [selectedImg, setSelectedImg] = useState(Images[0]);
 
